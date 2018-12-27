@@ -6,11 +6,10 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('DOMContentLoaded', function () {
   let elemss = document.querySelectorAll('.dropdown-trigger');
   var instancesdrop1 = M.Dropdown.init(elemss, {
-    alignment: 'right',
-    belowOrigin: true,
+    coverTrigger: false,
+    alignment: 'left'
   });
 });
-
 
 document.addEventListener('DOMContentLoaded', function () {
   var carousell = document.querySelector('.carousel.carousel-slider');

@@ -18,7 +18,7 @@
 <body>
   <!--Header dan navbar-->
   <section class="header">
-    <nav class="transparent z-depth-0">
+    <nav class="teal">
       <div class="container">
         <div class="nav-wrapper">
           <!-- <a href="#" class="brand-logo"><img src="./images/Untitled-1.png" alt=""></a> -->
@@ -33,7 +33,7 @@
                 <small class="notification-badge">3</small>
               </a>
             </li>
-            <li><a class="dropdown-trigger" target="dropdown2" href="#" data-activates="notification">
+            <li><a class="dropdown-trigger" data-target="dropdown2" href="#" data-activates="notification" data-beloworigin="true">
               <i class="material-icons white-text notif ">notifications</i>
               <small class="notification-badge">3</small>
             </a>
@@ -54,13 +54,22 @@
     </div>
 
     <ul id='dropdown1' class='dropdown-content'>
-      <li><a href="#!">one</a></li>
-      <li><a href="#!">two</a></li>
-      <li class="divider" tabindex="-1"></li>
-      <li><a href="#!">three</a></li>
-      <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
-      <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+      <li><a href="#!">Total: 0 Barang</a></li>
+      <li class="divider"></li>
+      <li><a href="">Belum ada Barang</a></li>
+      <li class="divider teal"></li>
+      <li><a href="" class="red-text">Lihat Permainan yang lain</a></li>
     </ul>
+  </section>
+
+  <ul id='dropdown2' class='dropdown-content'>
+    <li><a href="#!">one</a></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider" tabindex="-1"></li>
+    <li><a href="#!">three</a></li>
+    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+  </ul>
   </section>
 
   <!--Activity Section-->

@@ -24,14 +24,17 @@ body {
 .notification-badge {
   position: relative;
   padding: 5px 9px;
-  background-color: rgb(241, 241, 241);
-  color: #941e1e;
+  background-color: rgb(245, 0, 0);
+  color: #ffffff;
   bottom: 15px;
   left: 15px;
   border-radius: 50%;
 }
 
-
+.dropdown-content {
+  width: 200px !important;
+  border-radius: 20px;
+}
 
 .brand-logo img {
   background-size: cover;
