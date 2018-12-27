@@ -1,0 +1,91 @@
+html,
+body {
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header {
+  height: 650px;
+  background-image: url(../images/pexels-photo-60217.jpeg) !important;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+}
+
+.notif {
+  position: absolute;
+}
+
+.circle-images {
+  padding-top: 10px;
+}
+
+.notification-badge {
+  position: relative;
+  padding: 5px 9px;
+  background-color: rgb(241, 241, 241);
+  color: #941e1e;
+  bottom: 15px;
+  left: 15px;
+  border-radius: 50%;
+}
+
+
+
+.brand-logo img {
+  background-size: cover;
+  width: 200px;
+  padding-top: 20px;
+}
+
+.text1 {
+  width: 200px;
+  margin-top: 10%;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+}
+
+.text1 a {
+  font-family: 'Domine', serif;
+}
+
+.aktivitas {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-image img {
+  height: 200px;
+}
+
+.btn.rounded {
+  border-radius: 30px;
+}
+
+.why-us {
+  position: relative;
+  width: 100%;
+}
+
+.why-us img {
+  height: 500px;
+  width: 100%;
+  -webkit-filter: brightness(50%);
+
+}
+
+.why {
+  position: absolute;
+  top: 5%;
+  right: 32%;
+  text-align: center;
+  color: white;
+}
+
+.konten {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  text-align: center;
+  color: whitesmoke;
+}
