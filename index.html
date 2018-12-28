@@ -21,12 +21,10 @@
     <nav class="teal">
       <div class="container">
         <div class="nav-wrapper">
-          <!-- <a href="#" class="brand-logo"><img src="./images/Untitled-1.png" alt=""></a> -->
+          <a href="#" class="brand-logo"><img src="./images/putih.png" alt=""></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="sass.html">Home</a></li>
             <li><a href="badges.html">Activity</a></li>
             <li><a href="collapsible.html">Gallery</a></li>
-            <li><a href="#">About Us</a></li>
             <li><a href="#">Blog</a></li>
             <li><a class="dropdown-trigger" data-target="dropdown1" href="#" data-activates="notification" data-beloworigin="true">
                 <i class="material-icons white-text notif">add_shopping_cart</i>
@@ -39,7 +37,7 @@
             </a>
           </li>
           <li>
-            <a class="circle-images" href="">
+            <a class="circle-images dropdown-trigger" data-target="dropdown3" href="#" data-activates="notification" data-beloworigin="true">
               <img src="./images/835149_v9_bb.jpg" class="circle" width="40px" height="40px;">
             </a>
           </li>
@@ -49,16 +47,38 @@
       </div>
     </nav>
     <div class="row container center text1">
-      <h1 class="white-text"><b> Zooka Watersport</b></h1>
-
+      <h1 class="white-text"><b>Book Your Activies Now !</b></h1>
+        <!-- <div class="row container tanggal">
+          <div class="col s12 m12">
+            <div class="card-panel white">
+              <input type="text" class="datepicker center">
+            </div>
+          </div>
+        </div> -->
     </div>
 
     <ul id='dropdown1' class='dropdown-content'>
-      <li><a href="#!">Total: 0 Barang</a></li>
-      <li class="divider"></li>
-      <li><a href="">Belum ada Barang</a></li>
-      <li class="divider teal"></li>
-      <li><a href="" class="red-text">Lihat Permainan yang lain</a></li>
+      <li><a class="center" href="#">Total: 0 Items</a></li>
+      <li>
+        <ul class="collection">
+          <li class="collection-item avatar">
+            <div>
+              <img src="./images/item.jpg" alt="" class="circle" w>
+            <span class="title title-item">Jajan</span>
+            <p class="text-item">Banana Boat
+              <br>
+              <p>Rp 100000</p>
+            </p>
+            </div>
+            </li>
+        </ul>
+      </li>
+      <div class="row center">
+        <div class="col s12">
+          <a class="btn-small-checkout red">Checkout !</a>
+        </div>
+      </div>
+      <li><a href="" class="red-text center">Lihat Permainan yang lain</a></li>
     </ul>
   </section>
 
@@ -70,7 +90,15 @@
     <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
     <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
   </ul>
-  </section>
+
+  <ul id='dropdown3' class='dropdown-content'>
+    <li><a href="#!">one</a></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider" tabindex="-1"></li>
+    <li><a href="#!">three</a></li>
+    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+  </ul>
 
   <!--Activity Section-->
   <section class="activity">
@@ -127,6 +155,7 @@
   </section>
 
   <!--Section Why Us-->
+  <!--TODO: minta tolong aris untuk gelapin background-->
   <section class="why-us">
     <img src="./images/pexels-photo-1518500.jpeg">
     <h1 class=" why center"><b>Why Choose Us ?</b></h1>
@@ -156,48 +185,6 @@
           <p>psam illum tenetur modi saepe molestiae labore quos omnis eaque. Ab quaerat consectetur fugit
             voluptatum.
             Voluptates nulla, corrupti nostrum temporibus in quia!</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--Section What Customer Say-->
-  <section class="section-testimonial grey lighten-4">
-    <div class="container">
-      <div class="row">
-        <div class="col s12">
-          <div class="carousel carousel-slider center">
-            <div class="carousel-item">
-              <h2>Testimonial</h2>
-              <p class="flow-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. A possimus numquam, magnam
-                necessitatibus doloribus atque laborum aliquid autem voluptate, nesciunt assumenda officiis quae amet
-                rerum et. Sit praesentium minima doloremque?"</p>
-              <em>- Joni from Australia</em>
-              <div class="carousel-fixed-item center hide-on-small-and-down">
-                <a href="" class="btn grey">Read More</a>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <h2>Testimonial</h2>
-              <p class="flow-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. A possimus numquam, magnam
-                necessitatibus doloribus atque laborum aliquid autem voluptate, nesciunt assumenda officiis quae amet
-                rerum et. Sit praesentium minima doloremque?"</p>
-              <em>- Joni from Japan</em>
-              <div class="carousel-fixed-item center hide-on-small-and-down">
-                <a href="" class="btn grey">Read More</a>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <h2>Testimonial</h2>
-              <p class="flow-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. A possimus numquam, magnam
-                necessitatibus doloribus atque laborum aliquid autem voluptate, nesciunt assumenda officiis quae amet
-                rerum et. Sit praesentium minima doloremque?"</p>
-              <em>- Joni from America</em>
-              <div class="carousel-fixed-item center hide-on-small-and-down">
-                <a href="" class="btn grey">Read More</a>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>

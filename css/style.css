@@ -29,28 +29,22 @@ body {
   bottom: 15px;
   left: 15px;
   border-radius: 50%;
-}
-
-.dropdown-content {
-  width: 200px !important;
-  border-radius: 20px;
+  filter: drop-shadow(2px 3px 2px rgba(2, 2, 2, 0.5))
 }
 
 .brand-logo img {
   background-size: cover;
-  width: 200px;
-  padding-top: 20px;
+  width: 190px;
+  padding-top: 5px;
+  filter: drop-shadow(2px 3px 2px rgba(2, 2, 2, 0.5))
 }
+
 
 .text1 {
   width: 200px;
   margin-top: 10%;
   font-family: 'Montserrat', sans-serif;
   width: 100%;
-}
-
-.text1 a {
-  font-family: 'Domine', serif;
 }
 
 .aktivitas {
